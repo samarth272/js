@@ -38,3 +38,9 @@ let score="33abc"
 
 let valueInNumber=Number(score)
 console.log(valueInNumber)       //gives NAn as value
+
+//7
+converting value into negative=>
+let value =3
+let negValue= -value
+console.log(negValue);
