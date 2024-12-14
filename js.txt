@@ -1,0 +1,8 @@
+//4
+const variable cannot be changed once declared
+let is used for without scope(anywhere)
+var is used for scope variables , so not to use "var"
+
+variable are "undefined", when value is not assigned to it.
+
+//5
