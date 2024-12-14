@@ -19,3 +19,22 @@ alert(3+3)
 =>undefined=> only declare but not assigned a value => undefined is itself a type 
 =>symbol =>unique
 =>object
+
+//6
+number
+eg:   let score=33
+
+string
+eg:   let score="33"
+
+converting value from number to string=>
+let score="33"
+
+let valueInNumber=Number(score)
+console.log(typeof valueInNumber)      //number
+
+NaN datatype=> it is also a datatype
+let score="33abc" 
+
+let valueInNumber=Number(score)
+console.log(valueInNumber)       //gives NAn as value
