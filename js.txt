@@ -6,3 +6,16 @@ var is used for scope variables , so not to use "var"
 variable are "undefined", when value is not assigned to it.
 
 //5
+"use strict"; //treat all js code as newer version
+
+alert has different syntax in node, so it gives error
+alert(3+3)
+
+=>number is 2 to power 53
+=>bigint(for bigger number)
+=>string => ""
+=>boolean=> true/false
+=>null=> standalone value/assigned value=> null is of object type
+=>undefined=> only declare but not assigned a value => undefined is itself a type 
+=>symbol =>unique
+=>object
