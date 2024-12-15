@@ -44,3 +44,11 @@ converting value into negative=>
 let value =3
 let negValue= -value
 console.log(negValue);
+
+//8
+comparing 2 different datatypes=>
+console.log("2">1);      //true
+console.log("02">1);      //true
+
+Strict check by triple equal(===)=> it check number & datatype also
+console.log("2"===2);
