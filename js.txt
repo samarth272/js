@@ -113,3 +113,41 @@ const myn2=myArr.splice(1,3)           //it removes content from original array 
 console.log(Array.isArray("Hitesh"));  //is that named array is present
 console.log(Array.from("Hitesh"));       //create the array with that string
 console.log(Array.from({name:"Hitesh"}));
+
+//16
+Objects=>>
+const Jsuser={
+    name:"hitesh",           //key-value
+    "full name":"xyx abc",                 //when key is written with double quote it cannot be accessed with .
+    age:18,
+    location:"Pune",
+    email:"xyz@gmail.com",
+    isLoggedIn:false,
+    lastloginDays:["Monday","Saturday"]
+}
+
+console.log(Jsuser.email);
+console.log(Jsuser["email"])
+console.log(Jsuser["full name"]);        //imp
+
+when u want to use symbol in the object, we have to declare it with square brackets
+eg:
+const mySym=Symbol("key1")
+
+const Jsuser={
+    name:"hitesh",           //key-value
+    "full name":"xyx abc",
+    [mySym]:"mykey1",                       
+    age:18,
+    location:"Pune",
+    email:"xyz@gmail.com",
+    isLoggedIn:false,
+    lastloginDays:["Monday","Saturday"]
+}
+
+when u freeze the object , it will not change the changes u do after it
+eg:
+Jsuser.email="hitu@gmail.com"             
+Object.freeze(Jsuser)
+Jsuser.email="hituuuuu@gmail.com"         //it will not change
+console.log(Jsuser)            
