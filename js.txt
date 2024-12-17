@@ -108,3 +108,8 @@ console.log(myn1);
 console.log("B ",myArr);
 
 const myn2=myArr.splice(1,3)           //it removes content from original array i.e manipulate it
+
+//15
+console.log(Array.isArray("Hitesh"));  //is that named array is present
+console.log(Array.from("Hitesh"));       //create the array with that string
+console.log(Array.from({name:"Hitesh"}));
