@@ -76,3 +76,6 @@ string declarations=>
 const name="hitesh"
 
 const gameName=new String('Samaaaaa');
+
+//13
+Date is object in js
