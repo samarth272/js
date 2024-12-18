@@ -160,3 +160,19 @@ const {courseInstructor:instructor}=course
 
 //console.log(courseInstructor)
 console.log(instructor)
+
+//19
+functions=>
+returning value from function:
+eg: 
+function addTwoNumbers(number1 ,number2){
+   let result=number1+number2
+   return result
+}
+
+eg:
+function loginUserMessage(username){
+    return `${username} just logged in`
+}
+
+console.log(loginUserMessage("hitesh"))
