@@ -151,3 +151,4 @@ Jsuser.email="hitu@gmail.com"
 Object.freeze(Jsuser)
 Jsuser.email="hituuuuu@gmail.com"         //it will not change
 console.log(Jsuser)            
+
