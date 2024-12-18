@@ -176,3 +176,17 @@ function loginUserMessage(username){
 }
 
 console.log(loginUserMessage("hitesh"))
+
+//20
+variable declared inside the block cannot be accessed outside the block
+if(true){
+    let a=10
+    const b=20
+    var c=30
+}
+
+console.log(a);
+console.log(b);
+console.log(c);
+
+variable declared with "var " inside the block,can be accessed outside the block ===> so, don't use var
