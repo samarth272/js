@@ -152,3 +152,11 @@ Object.freeze(Jsuser)
 Jsuser.email="hituuuuu@gmail.com"         //it will not change
 console.log(Jsuser)            
 
+//18
+destructuring objects=>
+eg:
+const {courseInstructor}=course
+const {courseInstructor:instructor}=course
+
+//console.log(courseInstructor)
+console.log(instructor)
