@@ -190,3 +190,27 @@ console.log(b);
 console.log(c);
 
 variable declared with "var " inside the block,can be accessed outside the block ===> so, don't use var
+
+//25
+Javascript Execution Context=>
+{}=========> Global Execution Context => this variable stores Global Execution Context
+In browser, "this" value is window object
+
+There are 3 types of Execution Context=>1. Global Execution Context
+                                      =>2. function Execution Context
+                                      =>3. Eval Execution Context
+
+this run in 2 phases=>1. Memory Creation phase
+                    =>2. Execution phase
+
+Steps=> 1. Global Execution(/Environment) in "this" variable
+     => 2. Memory Phase => here, all variable name are stored as "undefined" in Memory creation phase
+                        => then, all function defination is also stored in Memory creation phase
+     => 3. Execution Phase=> then value is assigned with all variables
+                          => it will Execute functions with Execution Context which
+                          => Generally new function create new Execution Context with new variable Environment & Execution thread in it
+                          => so, it will execute again like Memory creation phase & Execution phase for a function only(not global)
+                          => function return value is returned/stored to global Execution Context
+                          => then it will delete function Execution Context
+
+=>CallStack(LIFO)=> first,global execution context then functions push & pop in stack frame
