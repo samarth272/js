@@ -214,3 +214,5 @@ Steps=> 1. Global Execution(/Environment) in "this" variable
                           => then it will delete function Execution Context
 
 =>CallStack(LIFO)=> first,global execution context then functions push & pop in stack frame
+
+//27
