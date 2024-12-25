@@ -215,4 +215,14 @@ Steps=> 1. Global Execution(/Environment) in "this" variable
 
 =>CallStack(LIFO)=> first,global execution context then functions push & pop in stack frame
 
-//28
+//37
+Javascript=>
+Synchronus(one thread execute then another then another)
+Single threaded(slow)
+
+execution Context=>
+Execute one line of code at time
+Waits for last operation to complete
+
+Blocking code(sync)    vs Non-blocking code(async)
+Blocking flow of code     Does not block execution
