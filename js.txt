@@ -226,3 +226,6 @@ Waits for last operation to complete
 
 Blocking code(sync)    vs Non-blocking code(async)
 Blocking flow of code     Does not block execution
+
+//40
+Promise=> that the task will complete in future but not now
