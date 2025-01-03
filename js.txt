@@ -240,3 +240,6 @@ A new object is created: new keyword initiates creation of new js object
 A prototype is linked:the newly created object is linked with prototype of constructor function
 The constructor is called
 Then new object is returned
+
+//46
+bind is use to bind all variables,methods with that object
